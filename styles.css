@@ -1,0 +1,414 @@
+body {
+  margin:0;
+  background-color:#134326;
+  font-family: Montserrat, sans-serif;
+  color:#fff;
+}
+
+h1 {
+  font-size:28px;
+}
+
+h2, h3 {
+  font-size:24px;
+}
+
+h1 span, h2 span, h3 span {
+  text-transform:uppercase;
+}
+
+.container {
+  width:100%;
+}
+
+.nav-wrapper {
+  width:100%;
+  background-color:#18723c;
+  height:69px;
+  z-index:2002;
+}
+
+.nav-button {
+  position:absolute;
+  top:16px;
+  left:16px;
+  font-size:32px;
+  color:#fff;
+}
+
+.nav-logo {
+  text-align:center;
+  position:relative;
+  bottom:15px;
+  z-index:2001;
+}
+
+.nav-logo img {
+  width:88px;
+}
+
+.embedded-mood {
+  background-image:url("images/casino-palace.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y:33%;
+  height:370px;
+  background-repeat:no-repeat;
+}
+
+.green-bg {
+  height:370px;
+  overflow: hidden;
+}
+
+#shape-right {
+	border-top: 1000px solid rgba(24,114,60,.9);
+	border-left: 550px solid transparent;
+	height: 0;
+	width: 5000px;
+}
+
+.call-to-action {
+  position:absolute;
+  top:45px;
+  right:45px;
+  text-align:right;
+  color:#fff;
+}
+
+.cta-header {
+  min-height:60px;
+  min-width: 667px;
+  padding-bottom:10px;
+}
+
+.cta-sub {
+  min-height:90px;
+  font-style:italic;
+}
+
+.btn {
+  min-width:190px;
+  border: none;
+  padding:10px 30px;
+  border-radius:3px;
+  margin-left:6px;
+}
+
+.call-to-action .btn-primary {
+    background-color: #f68d46;
+    min-height:44px;
+    position:absolute;
+    right:-300px;
+    top:200px;
+}
+
+.btn-primary {
+    background-color: #f68d46;
+}
+
+.btn-primary:hover {
+    background-color: #f47e2c;
+}
+
+.cta-button .btn-secondary {
+    background-color: #fff;
+    color:#259751;
+    min-height:44px;
+    position:absolute;
+    right:-300px;
+    top:200px;
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color:#1f834a;
+}
+
+.chips {
+  width:100%;
+  text-align:center;
+}
+
+.chips img {
+  width:60px;
+  z-index:2004;
+}
+
+.white {
+  position:absolute;
+  left:-65px;
+  top:410px;
+}
+
+.green {
+  position:absolute;
+  right:-65px;
+  top:400px;
+}
+
+.content-padding {
+  padding:60px;
+}
+
+.content-padding h2 {
+  margin:0px;
+  padding-bottom:30px;
+}
+
+form a {
+  color:#f68d46;
+}
+
+form a:hover, footer a:hover {
+  color:#f47e2c;
+}
+
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+form .btn {
+  margin-top:18px;
+  position:relative;
+  left:-20px;
+}
+
+.floating-mrg img {
+  width:550px;
+}
+
+.np-right {
+  padding-right:0px;
+}
+
+#register {
+  min-height:300px;
+}
+
+.mid-green {
+  background-color:rgba(24,114,60,.9);
+}
+
+.mid-green h4 {
+  font-style:italic;
+}
+
+.casino-palace {
+  background-image:url("images/casino-palace.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position:center center;
+}
+
+.center {
+  text-align:center;
+}
+
+.sep {
+  width:50px;
+  height:2px;
+  background-color:#ebebeb;
+  margin:0 auto;
+  margin-top:27px;
+  margin-bottom:27px;
+}
+
+#find-out-more .btn {
+  margin:21px 0px;
+}
+
+.input-group-addon:first-child {
+  position: relative;
+  left: 4px;
+  z-index: 2005;
+}
+
+select.input-lg {
+  color:#999;
+}
+
+ul,li{
+    padding:0;
+    margin:0;
+}
+li{
+    list-style-type:none;
+}
+
+footer { background-color:#134326; min-height:350px; padding:0px 30px; }
+.footer-col { margin-top:50px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footer-col p { color:#fff; font-size:12px; margin-bottom:15px;}
+.footer-col p i { width:20px; color:#999;}
+
+.footer-ul { list-style-type:none;  padding-left:0; margin-left:2px; position: relative; bottom: 8px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul i { margin-right:10px;}
+.footer-col a {
+  color:#fff;
+}
+
+ .copyright { min-height:40px; background-color:#134326; border-top:1px solid #18723c;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0; font-size: 12px; line-height: 30px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0; padding: 15px 0px;}
+ .bottom_ul li { float:left; }
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li:last-child:after { content:""; }
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+.social-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
+ .footer-social li{
+     float:left;
+ }
+ .linked-in{
+     background-color:#007bb6;
+ }
+ .facebook{
+     background-color:#3b5998;
+ }
+ .twitter{
+     background-color:#1da1f2;
+ }
+ .google{
+     background-color:#f63e28;
+ }
+
+ .mobile-cta {
+   text-align:center;
+   display: none;
+ }
+
+ .mobile-cta h1 {
+   font-size:24px;
+   padding: 20px 0px 15px;
+   margin: 0px;
+ }
+
+ /*.mobile-only {
+   display:none;
+ }*/
+
+ /* responsive styles */
+
+ @media screen and (max-width: 991px) {
+
+   .call-to-action h1 {
+     font-size:24px;
+   }
+
+   .call-to-action h3 {
+     font-size:21px;
+   }
+
+   #shape-right {
+     position: relative;
+     left: 45px;
+   }
+
+   form .btn {
+     margin-top:0px;
+   }
+
+   footer {
+     padding-bottom:45px;
+   }
+
+   .copyright {
+     padding-top:30px;
+   }
+
+  }
+
+@media screen and (max-width: 767px) {
+
+  .np-right {
+    padding-right:60px;
+  }
+
+  .floating-mrg {
+    display:none!important;
+  }
+
+  .call-to-action {
+    top:30px;
+    right:30px;
+  }
+
+  #shape-right {
+    left: 0px;
+  }
+
+ }
+
+ @media screen and (max-width: 730px) {
+
+   .mobile-cta {
+     display: block;
+   }
+
+   .embedded-mood .container {
+     display:none;
+   }
+
+   .embedded-mood {
+     height:200px;
+     background-position-y:27%;
+   }
+
+   .white {
+     top:295px;
+   }
+
+   .green {
+     top:285px;
+   }
+
+   .mobile-only {
+    width: 190px;
+    position: absolute;
+    top: 207px;
+    right: -200px;
+    box-shadow: 1px 1px 10px #000000;
+    z-index: 2999;
+   }
+
+  }
+
+  @media screen and (max-width: 519px) {
+
+    .white {
+      top:321px;
+    }
+
+    .green {
+      top:311px;
+    }
+
+    .content-padding {
+      padding:60px 30px;
+    }
+
+    .mobile-only {
+     top: 237px;
+    }
+
+   }
